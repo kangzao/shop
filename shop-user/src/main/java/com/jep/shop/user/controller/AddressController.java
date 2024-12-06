@@ -1,21 +1,18 @@
 package com.jep.shop.user.controller;
 
 
-import com.jep.shop.common.model.JsonData;
-import com.jep.shop.common.model.enums.BizCodeEnum;
+import com.jep.shop.common.enums.BizCodeEnum;
+import com.jep.shop.common.util.JsonData;
 import com.jep.shop.user.service.AddressService;
 import com.jep.shop.user.vo.AddressVO;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import io.swagger.annotations.ApiParam;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
-
-import javax.annotation.Resource;
 
 /**
  * <p>

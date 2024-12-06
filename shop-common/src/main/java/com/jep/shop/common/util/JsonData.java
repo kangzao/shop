@@ -1,15 +1,16 @@
-package com.jep.shop.common.model;
+package com.jep.shop.common.util;
+
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.TypeReference;
-import com.jep.shop.common.model.enums.BizCodeEnum;
+import com.jep.shop.common.enums.BizCodeEnum;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author enping
- * @date 2024/9/28 11:45
+ * @author enping.jep
+ * @date 2024/11/14 23:42
  **/
 @Data
 @AllArgsConstructor

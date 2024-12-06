@@ -1,4 +1,4 @@
-package com.jep.shop.common.model.enums;
+package com.jep.shop.common.enums;
 
 import lombok.Getter;
 

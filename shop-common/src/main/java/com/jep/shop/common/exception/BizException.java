@@ -1,6 +1,6 @@
 package com.jep.shop.common.exception;
 
-import com.jep.shop.common.model.enums.BizCodeEnum;
+import com.jep.shop.common.enums.BizCodeEnum;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
