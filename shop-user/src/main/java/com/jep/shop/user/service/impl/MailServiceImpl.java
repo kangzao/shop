@@ -19,11 +19,11 @@ public class MailServiceImpl implements MailService {
     /**
      * springboot 提供的一个发送邮件的简单抽象，直接注入即可
      */
-    @Autowired
-    private JavaMailSender mailSender;
+//    @Autowired
+//    private JavaMailSender mailSender;
 
 
-    @Value("${spring.mail.from}")
+//    @Value("${spring.mail.from}")
     private String from;
 
     /**
@@ -51,7 +51,7 @@ public class MailServiceImpl implements MailService {
         //邮件的内容
         message.setText(content);
 
-        mailSender.send(message);
+//        mailSender.send(message);
 
         log.info("邮件发送成功:{}", message.toString());
 
